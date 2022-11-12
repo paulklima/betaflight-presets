@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: whoop,
+#$ KEYWORDS: whoop,Rates
 #$ AUTHOR: PKL
 
 #$ PARSER: MARKED
@@ -29,28 +29,6 @@
 #$ DESCRIPTION: Max Rate  : 1000
 #$ DESCRIPTION: Expo      : 0.57 (0.0 Yaw)
 #$ DESCRIPTION:
-
-
-#$ OPTION BEGIN (UNCHECKED): Cinematic/HD Smoothing
-    # -- ADDER: Cinematic/HD Expo --
-    set roll_expo = 70
-    set pitch_expo = 70
-    set yaw_expo = 70
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Whooping in Angle\Horizon Mode
-    # -- ADDER: Whoop Yaw, Angle & Horizon Settings --
-    set thr_mid = 45
-    set thr_expo = 50
-    set yaw_rc_rate = 10
-    set yaw_expo = 25
-    set yaw_srate = 60
-    set angle_level_strength = 70
-    set horizon_level_strength = 70
-    set horizon_transition = 100
-    set level_limit = 85
-#$ OPTION END
-
 
 #$ OPTION BEGIN (CHECKED): Slow Rates on Rateprofile 0
     # -- ADDER: Slow Rates on Rateprofile 0 --
